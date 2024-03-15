@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header{
+    width: 100%;
+    height: 80vh;
+    background-image: url("./Fitness_img/banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-nav li a{
+    float: right;
+    color: #fff !important;
+}
+
+.navbar-brand img{
+    width: 150px;
+    margin-left: 30px;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    cursor: pointer;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.bar span{
+    height: 2px;
+}
+
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+}
+
+/* Remove focus and outline */
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+
+/* -------------------------------------WELCOME TEXT------------------------------------- */
+
+.welcom{
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+
+.welcom h1{
+    color: #333;
+}
+
+.welcom p{
+    color: #777;
+    text-align: justify;
+    letter-spacing: 0.4px;
+}
+
+.welcom .btn-secondary{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #013f7e;
+}
+
+/* -------------------------------------ABOUT US------------------------------------- */
+
+#about{
+    padding: 100px 0;
+}
+
+#about .col-md-6{
+    padding: 20px 10px;
+}
+
+#about .col-md-6 h3{
+    margin: 20px auto;
+}
+
+#about .col-md-6 p{
+    text-align: justify;
+    letter-spacing: 0.1px;
+}
+
+/* -------------------------------------Services------------------------------------- */
+
+#services{
+    background-color: #efefef;
+    padding: 80px 0;
+}
+#services .col-md-4{
+    padding: 20px;
+}
+#services .col-md-4 h4{
+    padding: 5px;
+}
+#services .col-md-4 img{
+    width: 50px;
+}
+#services .col-md-4 p{
+    padding: 5px;
+    text-align: justify;
+    letter-spacing: 0.1px;
+}
+
+/* -------------------------------------FEATURES------------------------------------- */
+
+#features{
+    padding: 100px 0;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("./Fitness_img/feature-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+#features .col-md-6{
+    padding: 20px;
+}
+#features .col-md-6 img{
+    width: 100%;
+}
+
+.feature-box{
+    height: 120px;
+}
+.feature-box .feature-left{
+    height: 120px;
+    width: 20%;
+    float: left;
+    margin-top: 20px;
+}
+.feature-box .feature-left span{
+    padding-top: 13px;
+    font-size: 40px;
+}
+
+.feature-box .feature-right{
+    height: 120px;
+    width: 80%;
+    float: left;
+    margin-top: 20px;
+}
+
+.feature-box .feature-right h4{
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+    
+}
+.feature-box .feature-right p{
+    padding-left: 15px;
+    text-align: left;
+    font-size: 13px;
+}
+
+/* ------------------------------------TESTIMONIALS------------------------------------- */
+
+#testimonials{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+}
+
+#testimonials .col-md-4{
+    padding: 10px 30px;
+    margin: 30px 0;
+}
+
+#testimonials .col-md-4 .user1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: -30px;
+    margin-top: -40px;
+    border: 5px solid #fff;
+    margin-bottom: 30px;
+    z-index: 1;
+}
+.review{
+    font-size: 14px;
+    padding: 10px 10px 50px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+#testimonials .col-md-4 .review .twitter{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    z-index: -1;
+}
+
+#testimonials .review .username{
+    color:#013f7e;
+    font-weight: 600;
+    font-size: 18px;
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+#testimonials .container h1{
+    margin-bottom: 20px;
+    color: #013f7e;
+}
+
+#testimonials .container .sub-heading{
+    padding-bottom: 30px;
+}
+
+#testimonials .container .row .middle{
+    margin: -30px 0;
+}
+
+/* ------------------------------------SUBSCRIBE------------------------------------- */
+
+.subscribe{
+    padding: 50px 120px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    margin-bottom: -160px;
+}
+
+.subscribe h3, .subscribe p{
+    color: #fff;
+}
+
+.subscribe .input-group .btn{
+    background: #ffffff89;
+    border-color: transparent;
+    color: #013f7e;
+    border-radius: 0 20px 20px 0;
+}
+
+.subscribe .input-group .btn:hover{
+    background: #013f7e;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.subscribe .input-group .form-control{
+    border-radius: 20px 0 0 20px;
+    border: none;
+}
+
+.subscribe .input-group .form-control:focus{
+    box-shadow: none;
+}
+
+/* ------------------------------------FOOTER------------------------------------- */
+
+#footer{
+    margin-top: 80px;
+    padding: 100px;
+    background-color: #efefef;
+    color: #013f7e;
+}
+
+#footer .row .col-md-3:first-child{
+    max-width: 200px;
+    margin-right: 100px;
+}
+
+.footer-logo{
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#footer h2{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 28px;
+    margin-bottom: 25px;
+}
+#footer p{
+    font-size: 12px;
+    text-align: left;
+}
+#footer .row .col-md-3 .footer-icon{
+    width: 15px;
+    margin-right: 5px;
+}
+
+#footer .city{
+    margin-left: 25px;
+}
+
+#footer hr{
+    margin-top: 50px;
+}
+
+#footer .copyright{
+    margin-top: 20px;
+    font-size: 15px;
+}
+    
